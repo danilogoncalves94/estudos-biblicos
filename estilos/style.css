@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url('../imagens/simbolos-cristaos.jpg') repeat;
+    background-size: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #87cefa;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: white;
+}
+ 
+caption {
+    background-color: yellow;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px black;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+td, th {
+    border: solid 3px black;
+    height: 40px;
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    font-weight: 900;
+}
