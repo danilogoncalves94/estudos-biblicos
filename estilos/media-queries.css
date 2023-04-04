@@ -5,6 +5,10 @@
         width: 90%;
     }
 
+    td, th {
+        padding: 5px;
+    }
+
 /*     thead > tr > th:nth-child(2)::after {
         content: ' 📙';
     }
