@@ -18,6 +18,9 @@
     <link rel="shortcut icon" href="imagens/book.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
     <title>Estudos Bíblicos</title>
 </head>
 
@@ -26,7 +29,7 @@
         <caption>ESTUDOS BÍBLICOS</caption>
         <thead>
             <tr>
-                <th>ASSUNTOS</th>
+                <th onclick="assuntos()">ASSUNTOS</th>
                 <th>PARÁGRAFOS CIC 📙</th>
                 <th>CITAÇÕES 📖</th>
             </tr>
@@ -34,91 +37,92 @@
         <tbody>
             <tr>
                 <td><i>Perdão de todos os pecados</i></td>
-                <td>982</td>
+                <td onclick="f1()">982</td>
                 <td></td>
             </tr>
             <tr>
                 <td>Sacramentos, modos de obter perdão</td>
-                <td>2839</td>
+                <td onclick="f2()">2839</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Somente Deus perdoa</i></td>
-                <td>1441</td>
+                <td onclick="f3()">1441</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Paraíso no desígnio de Deus</i></td>
-                <td>1721</td>
+                <td onclick="f4()">1721</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Beleza do céu e conhecimento de Deus</i></td>
-                <td>32</td>
-                <td>Sb 13, 1 - 9</td>
+                <td onclick="f5()">32</td>
+                <td onclick="fbible1()">Sb 13, 1 - 9</td>
             </tr>
             <tr>
                 <td><i>Deus, criador do céu e da terra</i></td>
-                <td>216</td>
-                <td>Sb 7, 17 - 21</td>
+                <td onclick="f6()">216</td>
+                <td onclick="fbible2()">Sb 7, 17 - 21</td>
             </tr>
             <tr>
                 <td><i>Novos céus e nova terra</i></td>
-                <td>1048</td>
+                <td onclick="f7()">1048</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Novos céus e nova terra</i></td>
-                <td>1049</td>
+                <td onclick="f8()">1049</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Reino dos céus e pobreza</i></td>
-                <td>2547</td>
-                <td>Mt 6, 25 - 34</td>
+                <td onclick="f9()">2547</td>
+                <td onclick="fbible3()">Mt 6, 25 - 34</td>
             </tr>
             <tr>
                 <td><i>Antecipação do juízo na penitência</i></td>
-                <td>1470</td>
-                <td>Jo 5, 24</td>
+                <td onclick="f10()">1470</td>
+                <td onclick="fbible4()">Jo 5, 24</td>
             </tr>
             <tr>
                 <td><i>Juízo da consciência</i></td>
-                <td>1778</td>
+                <td onclick="f11()">1778</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Juízo final, escatológico</i></td>
-                <td>677</td>
-                <td>Ap 20, 12</td>
+                <td onclick="f12()">677</td>
+                <td onclick="fbible5()">Ap 20, 12</td>
             </tr>
             <tr>
                 <td><i>Juízo final, escatológico</i></td>
-                <td>1040</td>
+                <td onclick="f13()">1040</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Juízo particular</i></td>
-                <td>1022</td>
+                <td onclick="f14()">1022</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Morrer em Cristo Jesus</i></td>
-                <td>1007</td>
+                <td onclick="f15()">1007</td>
                 <td></td>
             </tr>
             <tr>
                 <td><i>Como será a ressureição dos mortos</i></td>
                 <td></td>
-                <td>1 Cor 15, 35 - 53</td>
+                <td onclick="fbible6()">1 Cor 15, 35 - 53</td>
             </tr>
             <tr>
                 <td><i>Paciência; O temor a Deus</i></td>
                 <td></td>
-                <td>Eclo 2, 1 - 13</td>
+                <td onclick="fbible7()">Eclo 2, 1 - 13</td>
             </tr>
         </tbody>
     </table>
 </body>
+
 
 </html>
