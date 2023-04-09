@@ -4,7 +4,7 @@ function assuntos() {
 
 function f1() {
     $('tbody').empty()
-    $('tbody').append('<tr><td colspan="3">Não há nenhuma falta, por mais grave que seja, que a santa Igreja não possa perdoar. "Nem há pessoa, por muito má e culpável que seja, a quem não deva ser proposta a esperança certa do perdão, desde que se arrependa verdadeiramente dos seus erros". Cristo, que morreu por todos os homens, quer que na sua Igreja as portas do perdão estejam sempre abertas a todo aquele que se afastar do pecado.</i></td></tr>')
+    $('tbody').append('<tr><td colspan="3">Não há nenhuma falta, por mais grave que seja, que a santa Igreja não possa perdoar. "Nem há pessoa, por muito má e culpável que seja, a quem não deva ser proposta a esperança certa do perdão, desde que se arrependa verdadeiramente dos seus erros". Cristo, que morreu por todos os homens, quer que na sua Igreja as portas do perdão estejam sempre abertas a todo aquele que se afastar do pecado.</td></tr>')
 
     $('td').addClass('ajustesCic')
 
