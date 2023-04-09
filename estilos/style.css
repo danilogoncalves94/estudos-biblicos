@@ -9,10 +9,6 @@
   /*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@700&display=swap');*/
 
 
-/*:root {
-    --fonteRodape: 'dung';
-}*/
-
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -58,19 +54,9 @@ sub {
     text-indent: 0px;
 }
 
-span {
-    /*display: block;
-    float: right;
-    margin-top: 60px;
-    font-size: 42px;
-    font-weight: 700;
-    font-family: 'dung';*/   
-}
-
 td, th {
     border: solid 3px black;
     height: 40px;
-    /*background-color: rgba(245, 245, 182, 0.562);*/
 }
 
 th {
@@ -83,8 +69,6 @@ th:nth-child(1):hover {
     background-color: #009dff;
     color: white; 
     letter-spacing: 5px;
-    /*text-shadow: 2px 2px 10px blue;*/
-    /*text-decoration: underline; */
 }
 
 .cic {
@@ -104,6 +88,22 @@ td {
 .ajustesCic {
     padding: 20px;
     text-align: justify;
+    text-indent: 0px;
+}
+
+h1 {
+    text-align: center;   
+}
+
+span {
+    display: inline-block;
+    margin-left: -110px;
+    font-size: 22px;
+    padding-right: 20px;
+    font-weight: 900; 
+}
+
+p {
     text-indent: 50px;
 }
 
