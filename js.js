@@ -8,7 +8,7 @@ function f1() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f2() {
     $('tbody').empty()
@@ -16,7 +16,7 @@ function f2() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f3() {
     $('tbody').empty()
@@ -24,7 +24,7 @@ function f3() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f4() {
     $('tbody').empty()
@@ -32,7 +32,7 @@ function f4() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f5() {
     $('tbody').empty()
@@ -40,7 +40,7 @@ function f5() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f6() {
     $('tbody').empty()
@@ -48,7 +48,7 @@ function f6() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f7() {
     $('tbody').empty()
@@ -56,7 +56,7 @@ function f7() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f8() {
     $('tbody').empty()
@@ -64,7 +64,7 @@ function f8() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f9() {
     $('tbody').empty()
@@ -72,7 +72,7 @@ function f9() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f10() {
     $('tbody').empty()
@@ -80,7 +80,7 @@ function f10() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f11() {
     $('tbody').empty()
@@ -88,7 +88,7 @@ function f11() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f12() {
     $('tbody').empty()
@@ -96,7 +96,7 @@ function f12() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f13() {
     $('tbody').empty()
@@ -104,7 +104,7 @@ function f13() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f14() {
     $('tbody').empty()
@@ -112,7 +112,7 @@ function f14() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 function f15() {
     $('tbody').empty()
@@ -120,7 +120,7 @@ function f15() {
 
     $('td').addClass('ajustesCic')
 
-    $('th:contains("CIC")').addClass('cic')
+    $('th:contains("CAT")').addClass('cic')
 }
 
 /* ---------------------------------------------------------------------------------- */
