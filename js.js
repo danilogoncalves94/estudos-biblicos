@@ -84,7 +84,7 @@ function f10() {
 }
 function f11() {
     $('tbody').empty()
-    $('tbody').append('<tr><td colspan="3"><h1>Juízo da consciência</h1><p>A consciência moral é um juízo da razão, pelo qual a pessoa humana reconhece a qualidade moral dum acto concreto que vai praticar, que está prestes a executar ou que já realizou. Em tudo quanto diz e faz, o homem tem obrigação de seguir fielmente o que sabe ser justo e recto. É pelo julgamento de sua consciência que o homem percebe e reconhece as prescrições da lei divina:<br><sub>A consciência é uma lei de nosso espírito que ultrapassa nosso espírito, nos dá ordens, significa responsabilidade e dever, temor e esperança […]. É a mensageira daquele que, no mundo da natureza bem como no mundo da graça, nos fala veladamente, nos instrui e nos governa. A consciência é o primeiro de todos os vigários de Cristo.</p></sub></td></tr>')
+    $('tbody').append('<tr><td colspan="3"><h1>Juízo da consciência</h1><p>A consciência moral é um juízo da razão, pelo qual a pessoa humana reconhece a qualidade moral de um ato concreto que vai planejar, que está prestes a executar ou que já realizou. Em tudo o que diz e faz, o homem é obrigado a seguir fielmente o que sabe ser justo e correto. É pelo julgamento de sua consciência que o homem percebe e reconhece as prescrições da lei divina:<br><sub>A consciência é uma lei de nosso espírito que ultrapassa nosso espírito, nos dá ordens, significa responsabilidade e dever, temor e esperança […]. É a mensageira daquele que, no mundo da natureza bem como no mundo da graça, nos fala veladamente, nos instrui e nos governa. A consciência é o primeiro de todos os vigários de Cristo.</p></sub></td></tr>')
 
     $('td').addClass('ajustesCic')
 
