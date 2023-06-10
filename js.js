@@ -197,4 +197,13 @@ function fbible8() {
     $('th:contains("CIT")').addClass('cic')
 }
 
+function fbible9() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Tb 12, 1.5-15.20</h1><sup><strong>1</strong></sup>Então, Tobit chamou seu filho e disse-lhe: “Que havemos nós de dar a esse santo homem que te acompanhou?”.<sup><strong>5</strong></sup>Chamaram-no, pois, o pai e o filho e, tomando-o à parte, rogaram-lhe que aceitasse a metade de tudo o que tinham trazido.<sup><strong>6</strong></sup>Então, ele falou-lhes discretamente: “Bendizei o Deus do céu e dai-lhe glória diante de todo o ser vivente, porque ele usou de misericórdia para convosco.<sup><strong>7</strong></sup>Se é bom conservar escondido o segredo do rei, é coisa louvável revelar e publicar as obras de Deus.<sup><strong>8</strong></sup>Boa coisa é a oração acompanhada de jejum e a esmola é preferível aos tesouros de ouro escondidos,<sup><strong>9</strong></sup>porque a esmola livra da morte: ela apaga os pecados e faz encontrar a misericórdia e a vida eterna;<sup><strong>10</strong></sup>aqueles, porém, que praticam a injustiça e o pecado são os seus próprios inimigos.<sup><strong>11</strong></sup>Vou descobrir-vos a verdade, sem nada vos ocultar.<sup><strong>12</strong></sup>Quando tu oravas com lágrimas e enterravas os mortos, quando deixavas a tua refeição e ias ocultar os mortos em tua casa durante o dia, para sepultá-los quando viesse a noite, eu apresentava as tuas orações ao Senhor.<sup><strong>13</strong></sup>Mas porque eras agradável ao Senhor, foi preciso que a tentação te provasse.<sup><strong>14</strong></sup>Agora o Senhor enviou-me para curar-te e livrar do demônio Sara, mulher de teu filho.<sup><strong>15</strong></sup>Eu sou o anjo Rafael, um dos sete que assistimos na presença do Senhor”.<sup><strong>20</strong></sup>É chegado o tempo de voltar para aquele que me enviou: vós, porém, bendizei a Deus e publicai todas as suas maravilhas”.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+
 
