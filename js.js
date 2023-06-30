@@ -122,6 +122,14 @@ function f15() {
 
     $('th:contains("CAT")').addClass('cic')
 }
+function f16() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Plenitude dos tempos</h1><p>O Evangelho segundo São Lucas destaca a ação do Espírito Santo e o sentido da oração no ministério de Cristo. Jesus ora antes dos momentos decisivos de sua missão: antes de o Pai dar testemunho dele por ocasião do Batismo e da Transfiguração e antes de realizar por sua Paixão o plano de amor do Pai. Ora também antes dos momentos decisivos que darão início à missão dos Apóstolos: antes de escolher e chamar os Doze, antes que Pedro o confesse como "Cristo de Deus" e para que a fé do chefe dos Apóstolos não desfaleça na tentação. A oração de Jesus antes das ações salvíficas que realiza a pedido do Pai é uma entrega, humilde e confiante, de sua vontade humana à vontade amorosa do Pai.</p></sub></td></tr>')
+
+    $('td').addClass('ajustesCic')
+
+    $('th:contains("CAT")').addClass('cic')
+}
 
 /* ---------------------------------------------------------------------------------- */
 
