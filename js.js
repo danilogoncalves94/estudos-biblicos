@@ -130,6 +130,14 @@ function f16() {
 
     $('th:contains("CAT")').addClass('cic')
 }
+function f17() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Vida eterna, prêmio dos justos</h1><p>A livre iniciativa de Deus pede a <i>livre resposta do homem</i>, pois Deus criou o homem à sua imagem, conferindo-lhe, com a liberdade, o poder de conhecê-Lo e ama-Lo. A alma só pode entrar livremente na comunhão do amor. Deus toca imediatamente e move diretamente o coração do homem. Ele colocou no homem uma aspiração à verdade e ao bem que somente Ele pode satisfazer plenamente. As promessas da "vida eterna" respondem, além de a toda a nossa esperança, a esta aspiração:<br><sub>Se Vós, ao cabo de vossas obras excelentes (...) repousastes no sétimo dia, foi para nos dizer de antemão pela voz de vosso livro que, ao cabo de nossas obras ("que são muito boas", pelo fato mesmo de terdes sido Vós que no-las destes), também nós no Sábado da vida eterna em Vós repousaremos.</p></sub></td></tr>')
+
+    $('td').addClass('ajustesCic')
+
+    $('th:contains("CAT")').addClass('cic')
+}
 
 /* ---------------------------------------------------------------------------------- */
 
