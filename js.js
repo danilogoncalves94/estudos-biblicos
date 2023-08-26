@@ -138,6 +138,14 @@ function f17() {
 
     $('th:contains("CAT")').addClass('cic')
 }
+function f18() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Diversidade e complementariedade dos sexos</h1><p>Cabe a cada um, homem e mulher, reconhecer e aceitar sua <i>identidade</i> sexual. A <i>diferença</i> e a <i>complementaridade</i> físicas, morais e espirituais estão orientadas para os bens do casamento e para o desabrochar da vida familiar. A harmonia do casal e da sociedade depende, em parte, da maneira como se vivem entre os sexos a complementaridade, a necessidade e o apoio mútuos.</p></td></tr>')
+
+    $('td').addClass('ajustesCic')
+
+    $('th:contains("CAT")').addClass('cic')
+}
 
 /* ---------------------------------------------------------------------------------- */
 
