@@ -230,4 +230,13 @@ function fbible9() {
     $('th:contains("CIT")').addClass('cic')
 }
 
+function fbible10() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>1 Ts 4, 13 - 18</h1><sup><strong>13</strong></sup>Irmãos, não queremos deixar-vos na incerteza a respeito dos mortos, para que não fiqueis tristes como os outros, que não têm esperança.<sup><strong>14</strong></sup>Se Jesus morreu e ressuscitou — e esta é nossa fé —, de modo semelhante Deus trará de volta, com Cristo, os que através dele entraram no sono da morte.<sup><strong>15</strong></sup>Isto vos declaramos, segundo a palavra do Senhor: nós que fomos deixados com vida para a vinda do Senhor não levaremos vantagem em relação aos que morreram.<sup><strong>16</strong></sup>Pois o Senhor mesmo, quando for dada a ordem, à voz do arcanjo e ao som da trombeta, descerá do céu e os que morreram em Cristo ressuscitarão primeiro.<sup><strong>17</strong></sup>Em seguida, nós que fomos deixados com vida seremos arrebatados com eles nas nuvens, para o encontro com o Senhor, nos ares. E assim estaremos sempre com o Senhor.<sup><strong>18</strong></sup>Exortai-vos, pois, uns aos outros, com estas palavras.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+
 
