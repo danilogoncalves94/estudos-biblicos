@@ -238,5 +238,20 @@ function fbible10() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible11() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Fl 2, 6 - 11</h1><sup><strong>6</strong></sup>Jesus Cristo, existindo em condição divina, não fez do ser igual a Deus uma usurpação,<sup><strong>7</strong></sup>mas ele esvaziou-se a si mesmo, assumindo a condição de escravo e tornando-se igual aos homens. Encontrado com aspecto humano,<sup><strong>8</strong></sup>humilhou-se a si mesmo, fazendo-se obediente até a morte, e morte de cruz.<sup><strong>9</strong></sup>Por isso, Deus o exaltou acima de tudo e lhe deu o Nome que está acima de todo nome.<sup><strong>10</strong></sup>Assim, ao nome de Jesus, todo joelho se dobre no céu, na terra e abaixo da terra,<sup><strong>11</strong></sup>e toda língua proclame: “Jesus Cristo é o Senhor” — para a glória de Deus Pai.</td></tr>')
 
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+function fbible12() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Jo 3, 13 - 17</h1>Naquele tempo, disse Jesus a Nicodemos:<sup><strong>13</strong></sup>“Ninguém subiu ao céu, a não ser aquele que desceu do céu, o Filho do Homem.<sup><strong>14</strong></sup>Do mesmo modo como Moisés levantou a serpente no deserto, assim é necessário que o Filho do Homem seja levantado,<sup><strong>15</strong></sup>para que todos os que nele crerem tenham a vida eterna.<sup><strong>16</strong></sup>Pois Deus amou tanto o mundo, que deu o seu Filho unigênito, para que não morra todo o que nele crer, mas tenha a vida eterna.<sup><strong>17</strong></sup>De fato, Deus não enviou o seu Filho ao mundo para condenar o mundo, mas para que o mundo seja salvo por ele”.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
 
