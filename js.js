@@ -146,6 +146,14 @@ function f18() {
 
     $('th:contains("CAT")').addClass('cic')
 }
+function f19() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Cultura de vida e aborto</h1><p>A vida humana deve ser respeitada e protegida de maneira absoluta a partir do momento da concepção. Desde o primeiro momento de sua existência, o ser humano deve ver reconhecidos os seus direitos de pessoa, entre os quais o direito inviolável de todo ser inocente à vida.<br><sub>Antes mesmo de te formares no ventre materno, eu te conheci; antes que saísses do seio, eu te consagrei (Jr 1, 5).</sub><sub>Meus ossos não te foram escondidos quando eu era feito, em segredo, tecido na terra mais profunda (Sl 139, 15).</p></sub></td></tr>')
+
+    $('td').addClass('ajustesCic')
+
+    $('th:contains("CAT")').addClass('cic')
+}
 
 /* ---------------------------------------------------------------------------------- */
 
@@ -249,6 +257,14 @@ function fbible11() {
 function fbible12() {
     $('tbody').empty()
     $('tbody').append('<tr><td colspan="3"><h1>Jo 3, 13 - 17</h1>Naquele tempo, disse Jesus a Nicodemos:<sup><strong>13</strong></sup>“Ninguém subiu ao céu, a não ser aquele que desceu do céu, o Filho do Homem.<sup><strong>14</strong></sup>Do mesmo modo como Moisés levantou a serpente no deserto, assim é necessário que o Filho do Homem seja levantado,<sup><strong>15</strong></sup>para que todos os que nele crerem tenham a vida eterna.<sup><strong>16</strong></sup>Pois Deus amou tanto o mundo, que deu o seu Filho unigênito, para que não morra todo o que nele crer, mas tenha a vida eterna.<sup><strong>17</strong></sup>De fato, Deus não enviou o seu Filho ao mundo para condenar o mundo, mas para que o mundo seja salvo por ele”.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+function fbible13() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Sl 48, 6-7.8-10.17-18.19-20 <br>(R. Mt 5, 3)</h1><h2>Felizes os humildes de espírito, porque deles é o Reino dos céus.</h2><sup><strong>6</strong></sup>Por que temer os dias maus e infelizes, quando a malícia dos perversos me circunda?<sup><strong>7</strong></sup>Por que temer os que confiam nas riquezas e se gloriam na abundância de seus bens?<br><br><sup><strong>8</strong></sup>Ninguém se livra de sua morte por dinheiro nem a Deus pode pagar o seu resgate.<sup><strong>9</strong></sup>A isenção da própria morte não tem preço; não há riqueza que a possa adquirir,<sup><strong>10</strong></sup>nem dar ao homem uma vida sem limites e garantir-lhe uma existência imortal.<br><br><sup><strong>17</strong></sup>Não te inquietes, quando um homem fica rico e aumenta a opulência de sua casa;<sup><strong>18</strong></sup>pois ao morrer não levará nada consigo, nem seu prestígio poderá acompanhá-lo.<br><br><sup><strong>19</strong></sup>Felicitava-se a si mesmo enquanto vivo: “Todos te aplaudem, tudo bem, isto é que é vida!”<sup><strong>20</strong></sup>Mas vai-se ele para junto de seus pais, que nunca mais e nunca mais verão a luz!</td></tr>')
 
     $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
 
