@@ -270,4 +270,12 @@ function fbible13() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible14() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Fl 4, 6 - 9</h1><sup><strong>6</strong></sup>Não vos inquieteis com nada! Em todas as circunstâncias apresentai a Deus as vossas preocupações, mediante a oração, as súplicas e a ação de graças.<sup><strong>7</strong></sup>E a paz de Deus, que excede toda a inteligência, haverá de guardar vossos corações e vossos pensamentos, em Cristo Jesus.<sup><strong>8</strong></sup>Além disso, irmãos, tudo o que é verdadeiro, tudo o que é nobre, tudo o que é justo, tudo o que é puro, tudo o que é amável, tudo o que é de boa fama, tudo o que é virtuoso e louvável, eis o que deve ocupar vossos pensamentos.<sup><strong>9</strong></sup>O que aprendestes, recebestes, ouvistes e observastes em mim, isto praticai, e o Deus da paz estará convosco.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
 
