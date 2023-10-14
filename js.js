@@ -278,4 +278,12 @@ function fbible14() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible15() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Is 25, 6 - 10a</h1><sup><strong>6</strong></sup>O Senhor dos exércitos preparou para todos os povos, nesse monte, um banquete de carnes gordas, um festim de vinhos velhos, de carnes gordas e medulosas, de vinhos velhos purificados.<sup><strong>7</strong></sup>Nesse monte tirará o véu que vela todos os povos, a cortina que recobre todas as nações,<sup><strong>8</strong></sup>e fará desaparecer a morte para sempre. O Senhor Deus enxugará as lágrimas de todas as faces e tirará de toda a terra o opróbrio que pesa sobre o seu povo, porque o Senhor o disse.<sup><strong>9</strong></sup>Naquele dia, dirão: "Eis nosso Deus do qual esperamos nossa libertação. Congratulemo-nos, rejubilemo-nos por seu socorro,<sup><strong>10a</strong></sup>porque a mão do Senhor repousa neste monte."</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
 
