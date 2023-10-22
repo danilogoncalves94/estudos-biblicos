@@ -286,4 +286,12 @@ function fbible15() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible16() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Is 45, 1. 4 - 6</h1><sup><strong>1</strong></sup>Eis o que diz o Senhor a Ciro, seu ungido, que ele levou pela mão para derrubar as nações diante dele, para desatar o cinto dos reis, para abrir-lhe as portas, a fim de que nenhuma lhe fique fechada:<sup><strong>4</strong></sup>"É por amor de meu servo, Jacó, e de Israel que escolhi, que te chamei pelo teu nome, com títulos de honra, se bem que não me conhecesses.<sup><strong>5</strong></sup>Eu sou o Senhor, sem rival, não existe outro Deus além de mim. Eu te cingi, quando ainda não me conhecias,<sup><strong>6</strong></sup>a fim de que se saiba, do levante ao poente, que nada há fora de mim. Eu sou o Senhor, sem rival".</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
 
