@@ -294,4 +294,28 @@ function fbible16() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible17() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Ap 21, 1 - 5</h1><sup><strong>1</strong></sup>Vi, então, um novo céu e uma nova terra, pois o primeiro céu e a primeira terra desapareceram e o mar já não existia.<sup><strong>2</strong></sup>Eu vi descer do céu, de junto de Deus, a Cidade Santa, a nova Jerusalém, como uma esposa ornada para o esposo.<sup><strong>3</strong></sup>Ao mesmo tempo, ouvi do trono uma grande voz que dizia: “Eis aqui o tabernáculo de Deus com os homens. Habitará com eles e serão o seu povo, e Deus mesmo estará com eles.<sup><strong>4</strong></sup>Enxugará toda lágrima de seus olhos e já não haverá morte, nem luto, nem grito, nem dor, porque passou a primeira condição”.<sup><strong>5</strong></sup>Então, o que está assentado no trono disse: “Eis que eu renovo todas as coisas”. Disse ainda: “Escreve, porque estas palavras são fiéis e verdadeiras”.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+function fbible18() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Lc 12, 13 - 21</h1>Naquele tempo,<sup><strong>13</strong></sup>alguém, do meio da multidão, disse a Jesus: “Mestre, dize ao meu irmão que reparta a herança comigo”.<sup><strong>14</strong></sup>Jesus respondeu: “Homem, quem me encarregou de julgar ou de dividir vossos bens?”<sup><strong>15</strong></sup>E disse-lhes: “Atenção! Tomai cuidado contra todo o tipo de ganância, porque, mesmo que alguém tenha muitas coisas, a vida de um homem não consiste na abundância de bens”.<sup><strong>16</strong></sup>E contou-lhes uma parábola: “A terra de um homem rico deu uma grande colheita.<sup><strong>17</strong></sup>Ele pensava consigo mesmo: ‘Que vou fazer? Não tenho onde guardar minha colheita’.<sup><strong>18</strong></sup>Então resolveu: ‘Já sei o que vou fazer! Vou derrubar meus celeiros e construir maiores; neles vou guardar todo o meu trigo, junto com os meus bens.<sup><strong>19</strong></sup>Então poderei dizer a mim mesmo: Meu caro, tu tens uma boa reserva para muitos anos. Descansa, come, bebe, aproveita!’<sup><strong>20</strong></sup>Mas Deus lhe disse: ‘Louco! Ainda nesta noite, pedirão de volta a tua vida. E para quem ficará o que tu acumulaste?’<sup><strong>21</strong></sup>Assim acontece com quem ajunta tesouros para si mesmo, mas não é rico diante de Deus”.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+function fbible19() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Ap 3, 17 - 19</h1><sup><strong>17</strong></sup>"Pois dizes: Sou rico, faço bons negócios, de nada necessito – e não sabes que és infeliz, miserável, pobre, cego e nu.<sup><strong>18</strong></sup>Aconselho-te que compres de mim ouro provado ao fogo, para ficares rico; roupas alvas para te vestires, a fim de que não apareça a vergonha de tua nudez; e um colírio para ungir os olhos, de modo que possas ver claro.<sup><strong>19</strong></sup>Eu repreendo e castigo aqueles que amo. Reanima, pois, o teu zelo e arrepende-te."</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
 
