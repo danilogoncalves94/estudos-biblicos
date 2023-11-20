@@ -154,6 +154,14 @@ function f19() {
 
     $('th:contains("CAT")').addClass('cic')
 }
+function f20() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Beleza e bondade da criação</h1><p>Já que Deus cria com sabedoria, a criação é ordenada: "Tu dispuseste tudo com medida, número e peso" (Sb 11, 20). Feita no e por meio do Verbo eterno, "imagem do Deus invisível" (Cl 1, 15), a criação está destinada, dirigida ao homem, imagem de Deus, chamado a uma relação pessoal com Ele. Nossa inteligência, que participa da luz do Intelecto divino, pode entender o que Deus nos diz por sua criação, sem dúvida não sem grande esforço e num espírito de humildade e de respeito diante do Criador e de sua obra. Originada da bondade divina, a criação participa desta bondade: "E Deus viu que isto era bom... muito bom" (Gn 1, 4.10.12.18.21.31). Pois a criação é querida por Deus como um dom dirigido ao homem, como uma herança que lhe é destinada e confiada. Repetidas vezes a Igreja teve de defender a bondade da criação, inclusive do mundo material.</p></sub></td></tr>')
+
+    $('td').addClass('ajustesCic')
+
+    $('th:contains("CAT")').addClass('cic')
+}
 
 /* ---------------------------------------------------------------------------------- */
 
@@ -318,4 +326,11 @@ function fbible19() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible20() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Sb 2, 23 - 3, 9</h1><sup><strong>2,23</strong></sup>Deus criou o homem para a imortalidade e o fez à imagem de sua própria natureza;<sup><strong>24</strong></sup>foi por inveja do diabo que a morte entrou no mundo, e experimentam-na os que a ele pertencem.<sup><strong>3,1</strong></sup>A vida dos justos está nas mãos de Deus, e nenhum tormento os atingirá.<sup><strong>2</strong></sup>Aos olhos dos insensatos parecem ter morrido; sua saída do mundo foi considerada uma desgraça,<sup><strong>3</strong></sup>e sua partida do meio de nós, uma destruição; mas eles estão em paz.<sup><strong>4</strong></sup>Aos olhos dos homens parecem ter sido castigados, mas sua esperança é cheia de imortalidade;<sup><strong>5</strong></sup>tendo sofrido leves correções, serão cumulados de grandes bens, porque Deus os pôs à prova e os achou dignos de si.<sup><strong>6</strong></sup>Provou-os como se prova o ouro no fogo e aceitou-os como ofertas de holocausto;<sup><strong>7</strong></sup>no dia do seu julgamento hão de brilhar, correndo como centelhas no meio da palha;<sup><strong>8</strong></sup>vão julgar as nações e dominar os povos, e o Senhor reinará sobre eles para sempre.<sup><strong>9</strong></sup>Os que nele confiam compreenderão a verdade, e os que perseveram no amor ficarão junto dele, porque a graça e a misericórdia são para seus eleitos.</td></tr>')
 
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
