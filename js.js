@@ -162,6 +162,14 @@ function f20() {
 
     $('th:contains("CAT")').addClass('cic')
 }
+function f21() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Relação do homem com a criação</h1><p>Este sacramento nos <i>reconcilia com a Igreja</i>. O pecado fende ou quebra a comunhão fraterna. O sacramento da Penitência a repara ou restaura. Neste sentido, ele não cura apenas aquele que é restabelecido na comunhão eclesial, mas tem também um efeito vivificante sobre a vida da Igreja, que sofreu com o pecado de um de seus membros. Restabelecido ou confirmado na comunhão dos santos, o pecador sai fortalecido pela participação dos bens espirituais de todos os membros vivos do Corpo de Cristo, quer estejam ainda em estado de peregrinação, quer já estejam na pátria celeste:<br><sub>Não devemos esquecer que a reconciliação com Deus tem como consequência, por assim dizer, outras reconciliações capazes de remediar outras rupturas ocasionadas pelo pecado: o penitente perdoado reconcilia-se consigo mesmo no íntimo mais profundo de seu ser, onde recupera a própria verdade interior; reconcilia-se com os irmãos que de alguma maneira ofendeu e feriu; reconcilia- se com a Igreja; e reconcilia-se com toda a criação.</p></sub></td></tr>')
+
+    $('td').addClass('ajustesCic')
+
+    $('th:contains("CAT")').addClass('cic')
+}
 
 /* ---------------------------------------------------------------------------------- */
 
