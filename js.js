@@ -350,3 +350,19 @@ function fbible21() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible22() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Jo 14, 1 - 6</h1><sup><strong>1</strong></sup>"Não se perturbe o vosso coração. Credes em Deus, crede também em mim.<sup><strong>2</strong></sup>Na casa de meu Pai há muitas moradas. Não fora assim, e eu vos teria dito; pois vou preparar-vos um lugar.<sup><strong>3</strong></sup>Depois de ir e vos preparar um lugar, voltarei e vos tomarei comigo, para que, onde eu estou, também vós estejais.<sup><strong>4</strong></sup>E vós conheceis o caminho para ir aonde vou."<sup><strong>5</strong></sup>Disse-lhe Tomé: "Senhor, não sabemos para onde vais. Como podemos conhecer o caminho?".<sup><strong>6</strong></sup>Jesus lhe respondeu: "Eu sou o caminho, a verdade e a vida; ninguém vem ao Pai senão por mim."</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
+function fbible23() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Jo 15, 1 - 8</h1>Naquele tempo, Jesus disse a seus discípulos:<sup><strong>1</strong></sup>"Eu sou a videira verdadeira, e meu Pai é o agri­cul­tor. Todo ramo que não der fruto em mim, ele o cortará;<sup><strong>2</strong></sup>e podará todo o que der fruto, para que produza mais fruto.<sup><strong>3</strong></sup>Vós já estais puros pela palavra que vos tenho anunciado.<sup><strong>4</strong></sup>Permanecei em mim e eu permanecerei em vós. O ramo não pode dar fruto por si mesmo, se não permanecer na videira. Assim também vós: não podeis tampouco dar fruto, se não permanecerdes em mim.<sup><strong>5</strong></sup>Eu sou a videira; vós, os ramos. Quem permanecer em mim e eu nele, esse dá muito fruto; porque sem mim nada podeis fazer.<sup><strong>6</strong></sup>Se alguém não permanecer em mim será lançado fora, como o ramo. Ele secará e hão de ajuntá-lo e lançá-lo ao fogo, e será queimado.<sup><strong>7</strong></sup>Se permanecerdes em mim, e as minhas palavras permanecerem em vós, pedireis tudo o que quiserdes e vos será feito.<sup><strong>8</strong></sup>Nisso é glorificado meu Pai, para que deis muito fruto e vos torneis meus discípulos."</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
