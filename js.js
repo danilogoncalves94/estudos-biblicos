@@ -366,3 +366,11 @@ function fbible23() {
 
     $('th:contains("CIT")').addClass('cic')
 }
+function fbible24() {
+    $('tbody').empty()
+    $('tbody').append('<tr><td colspan="3"><h1>Eclo 27, 33 - 28, 9</h1><sup><strong>33</strong></sup>Cólera e furor são ambos execráveis; o homem pecador os alimenta em si mesmo.<strong>28</strong><sup><strong>1</strong></sup>Aquele que quer vingar sofrerá a vingança do Senhor, que guardará cuidadosamente os seus pecados.<sup><strong>2</strong></sup>Perdoa ao teu próximo o mal que te fez, e teus pecados serão perdoados quando o pedires.<sup><strong>3</strong></sup>Um homem guarda rancor contra outro homem, e pede a Deus a sua cura!<sup><strong>4</strong></sup>Não tem misericórdia para com o seu semelhante, e roga o perdão dos seus pecados!<sup><strong>5</strong></sup>Ele, que é apenas carne, guarda rancor, e pede a Deus que lhe seja propício! Quem, então, lhe conseguirá o perdão de seus pecados?<sup><strong>6</strong></sup>Lembra-te do teu fim, e põe termo às tuas inimizades,<sup><strong>7</strong></sup>pois a decadência e a morte são uma ameaça para aqueles que transgridem os mandamentos.<sup><strong>8</strong></sup>Lembra-te do temor a Deus, e não fiques irado contra o próximo.<sup><strong>9</strong></sup>Lembra-te da aliança com o Altíssimo, e passa por cima do erro que o teu próximo cometeu inadvertidamente.</td></tr>')
+
+    $('td').css({padding: '20px', textAlign: 'justify'}).addClass('corFundoBible')
+
+    $('th:contains("CIT")').addClass('cic')
+}
